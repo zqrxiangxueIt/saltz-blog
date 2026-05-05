@@ -1049,7 +1049,7 @@ inject:
   head:
     - <style>
         #site-name { font-size: 2em; }
-        #site-title { font-size: 3em; }
+        #site-title { font-size: 4em; }
       </style>
   bottom:
     # - <script src="xxxx"></script>
