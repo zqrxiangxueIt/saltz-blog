@@ -1,3 +1,24 @@
 .site-name { font-size: 1.3rem; }
 #site-title { font-size: 3.5rem !important; }
 #nav .site-page { font-size: 1.1rem; }
+
+/* 页脚背景 — 半透明浅黑 */
+#footer {
+  background: rgba(50, 50, 50, 0.3) !important;
+}
+
+/* 滚动条 — 冰蓝淡紫 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #8899BB;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6B7FA8;
+}
