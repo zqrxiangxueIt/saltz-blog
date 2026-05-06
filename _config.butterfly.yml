@@ -20,6 +20,7 @@ menu:
   Archives: /archives/ || fas fa-archive
   Tags: /tags/ || fas fa-tags
   Categories: /categories/ || fas fa-folder-open
+  dairy: /categories/dairy/ || fas fa-book
   About: /about/ || fas fa-user
 
 # --------------------------------------
@@ -1049,7 +1050,17 @@ inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - |
+      <script>
+        (function() {
+          var items = document.querySelectorAll('#aside-content .aside-list-item');
+          items.forEach(function(item) {
+            if (/每日杂想/.test(item.textContent)) {
+              item.style.display = 'none';
+            }
+          });
+        })();
+      </script>
 
 # CDN Settings
 # Don't modify the following settings unless you know how they work
