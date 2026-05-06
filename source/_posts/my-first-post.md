@@ -2,6 +2,7 @@
 title: Hello Hexo
 date: 2026-05-05 09:49:41
 tags: [Hexo, 博客]
+description: 基于 Hexo + Butterfly 搭建的个人博客，记录学习、思考与生活。
 ---
 
 ## 欢迎
